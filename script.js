@@ -6,15 +6,6 @@ let sun=document.querySelector('.icon-sun');
 let moon=document.querySelector('.icon-moon');
 theme.onclick = function(){
     document.body.classList.toggle("light");
-    if(document.body.classList.contains("light"))
-    {
-        sun.disabled=true;
-        moon.disabled=false;
-    }
-    else{
-        sun.disabled=false;
-        moon.disabled=true;
-    }
 }
 let string = "";
 let arr = Array.from(buttons);
